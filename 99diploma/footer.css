@@ -1,0 +1,140 @@
+
+
+#footer .nav-link {
+    color: black;
+    font-size: 14px;
+  }
+  
+  #footer .nav-link:hover {
+    color: #555;
+  }
+  
+  #footer .nav-link.track-orders {
+    color: black;
+  }
+  
+  #footer .social-icons a {
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  #footer .social-icons a:hover {
+    text-decoration: none;
+  }
+  
+  #footer .social-icons a.facebook:hover {
+    color: #3b5998;
+  }
+  
+  #footer .social-icons a.pinterest:hover,
+  #footer .social-icons a.youtube:hover {
+    color: #bd081c;
+  }
+  
+  #footer .social-icons a.instagram:hover {
+    color: yellow;
+  }
+  
+  #footer .social-icons a.linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .paragraph, .text {
+    border-radius: 6%;
+    border-color: black;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .heading {
+    font-weight: bold;
+  }
+  
+  .no-space .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .no-space .nav-link {
+    padding: 0;
+  }
+  
+  h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+    color:  black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .footer-margin {
+    margin-bottom: 20px;
+  }
+  
+  .footer-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #footer-additional {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    #footer-additional .card {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .card img {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+    }
+  }
+  
